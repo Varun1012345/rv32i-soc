@@ -1,0 +1,39 @@
+# Compile of alu_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of regfile.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.alu_tb
+# vsim -gui work.alu_tb 
+# Start time: 11:35:05 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.alu_tb
+# Loading work.alu
+add wave -position insertpoint  \
+sim:/alu_tb/a \
+sim:/alu_tb/b \
+sim:/alu_tb/alu_op \
+sim:/alu_tb/result
+run -all
+# ADD PASS
+# SUB PASS
+# AND PASS
+# OR PASS
+# XOR PASS
+# SLT signed PASS
+# SLTU unsigned PASS
+# SLL PASS
+# SRL PASS
+# SRA PASS
+# ** Note: $finish    : C:/Users/Varun/rv32i-soc/tb/alu_tb.sv(61)
+#    Time: 110 ps  Iteration: 0  Instance: /alu_tb
+# 1
+# Break in Module alu_tb at C:/Users/Varun/rv32i-soc/tb/alu_tb.sv line 61
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
